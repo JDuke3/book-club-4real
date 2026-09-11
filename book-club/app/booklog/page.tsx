@@ -22,9 +22,9 @@ export default async function booklog() {
 
   return (
 
-    <main className="min-h-screen bg-slate-900 text-white p-24 flex flex-col items-center justify-center">
+    <main className="min-h-screen bg-slate-900 text-white pt-24 flex flex-col items-center justify-center px-10">
       <Navbar />
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl">
       <h1 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
         Community Book Log
       </h1>
