@@ -4,9 +4,9 @@ export default function Home() {
 
   return (
 
-    <main className="min-h-screen bg-slate-900 text-white overflow-hidden flex flex-col items-center justify-center p-24">
+    <main className="min-h-screen bg-slate-900 text-white overflow-hidden flex flex-col items-center justify-center pt-24 px-10">
       <Navbar />
-        <div className="flex flex-col rounded-2xl items-center bg-slate-950">
+        <div className="flex flex-col rounded-2xl items-center bg-slate-950 min-w-50">
           
           <h1 className=" p-10 rounded-2x1 text-4xl font-bold tracking-tight  text-zinc-900 dark:text-zinc-100">
             Current Books (September):
